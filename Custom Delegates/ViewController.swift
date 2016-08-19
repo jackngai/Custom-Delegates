@@ -8,18 +8,38 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet weak var zipCode: UITextField!
+    @IBOutlet weak var price: UITextField!
+    @IBOutlet weak var toggleTextField: UITextField!
+    @IBOutlet weak var enableTextField: UISwitch!
+    
+    let zipCodeDelegate = ZipCodeDelegate()
+    let priceDelegate = PriceDelegate()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Set the delegates
+        zipCode.delegate = zipCodeDelegate
+        price.delegate = priceDelegate
+        toggleTextField.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        guard enableTextField.on == true else {
+            return false
+        }
+        return true
     }
+    
 
+    
+
+    
 
 }
 
