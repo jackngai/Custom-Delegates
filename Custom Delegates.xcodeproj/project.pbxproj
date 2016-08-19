@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98EB2D1C1D676F0C00F65C72 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB2D1B1D676F0C00F65C72 /* Launch Screen.storyboard */; };
 		98EEF61D1D66372200210DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEF61C1D66372200210DC5 /* AppDelegate.swift */; };
 		98EEF61F1D66372200210DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEF61E1D66372200210DC5 /* ViewController.swift */; };
 		98EEF6221D66372200210DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EEF6201D66372200210DC5 /* Main.storyboard */; };
 		98EEF6241D66372200210DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EEF6231D66372200210DC5 /* Assets.xcassets */; };
-		98EEF6271D66372200210DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EEF6251D66372200210DC5 /* LaunchScreen.storyboard */; };
 		98EEF62F1D663EAD00210DC5 /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEF62E1D663EAD00210DC5 /* ZipCodeDelegate.swift */; };
 		98EEF6311D663F4900210DC5 /* PriceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEF6301D663F4900210DC5 /* PriceDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98EB2D1B1D676F0C00F65C72 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		98EEF6191D66372100210DC5 /* Custom Delegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Delegates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EEF61C1D66372200210DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98EEF61E1D66372200210DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		98EEF6211D66372200210DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98EEF6231D66372200210DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98EEF6261D66372200210DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98EEF6281D66372200210DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98EEF62E1D663EAD00210DC5 /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
 		98EEF6301D663F4900210DC5 /* PriceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceDelegate.swift; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 				98EEF61C1D66372200210DC5 /* AppDelegate.swift */,
 				98EEF61E1D66372200210DC5 /* ViewController.swift */,
 				98EEF6201D66372200210DC5 /* Main.storyboard */,
+				98EB2D1B1D676F0C00F65C72 /* Launch Screen.storyboard */,
 				98EEF6301D663F4900210DC5 /* PriceDelegate.swift */,
 				98EEF62E1D663EAD00210DC5 /* ZipCodeDelegate.swift */,
 				98EEF6231D66372200210DC5 /* Assets.xcassets */,
-				98EEF6251D66372200210DC5 /* LaunchScreen.storyboard */,
 				98EEF6281D66372200210DC5 /* Info.plist */,
 			);
 			path = "Custom Delegates";
@@ -129,7 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98EEF6271D66372200210DC5 /* LaunchScreen.storyboard in Resources */,
+				98EB2D1C1D676F0C00F65C72 /* Launch Screen.storyboard in Resources */,
 				98EEF6241D66372200210DC5 /* Assets.xcassets in Resources */,
 				98EEF6221D66372200210DC5 /* Main.storyboard in Resources */,
 			);
@@ -158,14 +158,6 @@
 				98EEF6211D66372200210DC5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		98EEF6251D66372200210DC5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98EEF6261D66372200210DC5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -36,6 +36,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    @IBAction func toggleSwitch(sender: UISwitch) {
+        if !sender.on{
+            //resignFirstResponder()
+            toggleTextField.resignFirstResponder()
+        }
+    }
 
     
 
